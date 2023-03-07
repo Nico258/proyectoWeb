@@ -43,6 +43,77 @@ a:hover {
    /* color de fondo al pasar el ratón por encima */
 }
 
+.nombre:hover {
+   border-radius: 10px;
+   padding: 5px;
+   color: black;
+   /* color de texto al pasar el ratón por encima */
+   background-color: white;
+   /* color de fondo al pasar el ratón por encima */
+}
+
+.parrafo{
+   margin-left: 5%;
+   margin-right: 5%;
+}
+
+.datos{
+   margin-left: 10%;
+   margin-right: 10%;
+}
+
+.datos label{
+   margin: 5px;
+   margin-left: 20%;
+}
+
+.datos input{
+   width: 60%;
+   margin-right: 20%;
+}
+
+.datosindv{
+   display: flex;
+}
+
+.contactenos{
+   display: flex;
+}
+
+.contactenos img{
+   width: 50px;
+}
+
+.redes{
+
+   margin-right: 10%;
+}
+
+footer{
+   display: grid;
+   place-items: center;
+}
+
+.right{
+   margin-left: 30%;
+   text-align: justify;
+}
+
+.left{
+   margin-right: 30%;
+   text-align: justify;
+}
+
+#ubicacion{
+   display: grid;
+   place-items: center;
+}
+
+#contacto{
+   display: grid;
+   place-items: center;
+}
+/*
 frame{
    
-}
+}*/
