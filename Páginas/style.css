@@ -78,8 +78,6 @@ a:hover {
 
 .contactenos{
    display: flex;
-   margin-left: 20%;
-   margin-right: 20%;
 }
 
 .contactenos img{
@@ -87,8 +85,33 @@ a:hover {
 }
 
 .redes{
-   margin-left: 5%;
-   margin-right: 5%;
+
+   margin-right: 10%;
+}
+
+footer{
+   display: grid;
+   place-items: center;
+}
+
+.right{
+   margin-left: 30%;
+   text-align: justify;
+}
+
+.left{
+   margin-right: 30%;
+   text-align: justify;
+}
+
+#ubicacion{
+   display: grid;
+   place-items: center;
+}
+
+#contacto{
+   display: grid;
+   place-items: center;
 }
 /*
 frame{
